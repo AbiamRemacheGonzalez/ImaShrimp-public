@@ -14,7 +14,7 @@
 <a href=""><img src="./_readme_images/Diapositiva54_resized.PNG"></a>    <a href=""><img src="./_readme_images/Diapositiva53_resized.PNG"></a>
 </p>
 
-This branch contains the implementation of <a href="https://www.overleaf.com/read/nsrxnkxdzbqf#6a5fbf">ImaShrimp: Automatic White Shrimp (Penaeus vannamei) Biometrical Analysis from Laboratory Images Using Computer Vision and Deep Learning</a>. It obtains **0.8 mm Mean Average Error (MAE)** when comparing ground truth and predicted measurements on a test set of the dataset.
+This branch contains the **public access** of <a href="https://www.overleaf.com/read/nsrxnkxdzbqf#6a5fbf">ImaShrimp: Automatic White Shrimp (Penaeus vannamei) Biometrical Analysis from Laboratory Images Using Computer Vision and Deep Learning</a>. It obtains **0.8 mm Mean Average Error (MAE)** when comparing ground truth and predicted measurements on a test set of the dataset.
 
 ## Dataset
 The dataset contains 12367 annotated images with 23 key points each. Additionally, information about the animal's point of view (Lateral or Dorsal) and the integrity of its rostrum (Good or Broken) is available. The dataset is organized as follows:
@@ -83,7 +83,7 @@ The results are divided into three main sections: **(1) Classification**, **(2) 
 ## Usage
 We use PyTorch 2.7.1+cu118, [imashrimp_mmcv](https://github.com/AbiamRemacheGonzalez/imashrimp_mmcv) and [imashrimp_VitPose](https://github.com/AbiamRemacheGonzalez/imashrimp_ViTPose) for the experiments.
 ```bash
-git clone https://github.com/AbiamRemacheGonzalez/ImaShrimp
+git clone https://github.com/AbiamRemacheGonzalez/ImaShrimp                 # Not this public repository.
 cd 1_pose_estimation
 git clone https://github.com/AbiamRemacheGonzalez/imashrimp_mmcv
 git clone https://github.com/AbiamRemacheGonzalez/imashrimp_ViTPose
@@ -115,3 +115,6 @@ For ImaShrimp 🦐, please cite the following paper:
   howpublished = {Disponible en Overleaf: \url{https://www.overleaf.com/read/nsrxnkxdzbqf#6a5fbf}},
 }
 ```
+
+## Accessing to ImaShrimp
+For accessing to the latest version of ImaShrimp, please contact using this email <a href="mailto:abiam.remache101@alu.ulpgc.es">Abiam Remache González</a>.
